@@ -127,15 +127,6 @@ dfn {
   font-style: italic;
 }
 
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
 
 /**
  * Address styling not present in IE 8/9.
@@ -425,3 +416,24 @@ td,
 th {
   padding: 0;
 }
+/*
+     FILE ARCHIVED ON 19:48:34 Jul 14, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 08:48:26 Jun 24, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  PetaboxLoader3.resolve: 393.836 (2)
+  exclusion.robots.policy: 0.174
+  exclusion.robots: 0.204
+  captures_list: 601.174
+  load_resource: 686.305
+  LoadShardBlock: 548.032 (3)
+  PetaboxLoader3.datanode: 740.009 (5)
+  esindex: 0.014
+  CDXLines.iter: 13.346 (3)
+  RedisCDXSource: 36.66
+*/
