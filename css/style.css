@@ -52,7 +52,7 @@ span.columns {
     height: 44px !important;
     width: 44px !important;
     margin-left: 6px !important;
-    z-index: 2000;
+    z-index: 10000;
 }
 .nameFixedLeft {
     position: fixed;
