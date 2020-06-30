@@ -71,7 +71,6 @@ $(document).ready(function(){
            percent = mod((percent - 1 ), 100);
        }
        previousScroll = currentScroll;
-       console.log(percent);
         var value = percent + '%';
         $('.portrait-container').css('background-position-y', value);
         
