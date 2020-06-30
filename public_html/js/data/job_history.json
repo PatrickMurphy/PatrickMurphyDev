@@ -1,52 +1,81 @@
 [
     {
         "organization_title": "Patrick Murphy Webdesign &amp; Photography",
-        "job_title": "Freelance Web developer",
-        "job_start": 2005,
-        "job_end": "Present",
-        "job_description": "I develop websites for various small businesses and individuals.  In 2009, I began offering professional Photography services.",
-        "organization_img": "images/patrickmurphy_logo.png"
+        "organization_img": "images/patrickmurphy_logo.png",
+        "jobs": [
+            {
+            "job_title": "Freelance Web developer",
+            "job_start": 2005,
+            "job_end": "Present",
+            "job_description": "I develop websites for various small businesses and individuals.  In 2009, I began offering professional Photography services."
+            }
+        ]
     },
     {
         "organization_title": "CWU Family Resource Center",
-        "job_title": "Webmaster",
-        "job_start": 2010,
-        "job_end": 2011,
-        "job_description": "My responsibilities included redesigning and updating the Family Resource Center's website. I also designed posters for campus events.",
-        "organization_img": "images/cwu_logo.jpg"
+        "organization_img": "images/cwu_logo.jpg",
+        "jobs": [
+            {
+                "job_title": "Webmaster",
+                "job_start": 2010,
+                "job_end": 2011,
+                "job_description": "My responsibilities included redesigning and updating the Family Resource Center's website. I also designed posters for campus events."
+            }
+        ]
     },
     {
         "organization_title": "CWU Early Childhood Learning Center",
-        "job_title": "Web Developer",
-        "job_start": 2010,
-        "job_end": 2012,
-        "job_description": "I improved User Experience and made regular additions &amp; updates to the Early Childhood Learning Center's website.",
-        "organization_img": "images/cwu_logo.jpg"
+        "organization_img": "images/cwu_logo.jpg",
+        "jobs": [
+            {
+                "job_title": "Web Developer",
+                "job_start": 2010,
+                "job_end": 2012,
+                "job_description": "I improved User Experience and made regular additions &amp; updates to the Early Childhood Learning Center's website."
+            }
+        ]
     },
     {
         "organization_title": "Alaska Airlines IT Department",
         "organization_img": "images/alaska_logo.jpg",
-        "job_title": "Intern",
-        "job_start": 2011,
-        "job_description": "I worked with the IT Architecture Team as an intern. I helped to implement the Service Oriented Architecture inventory.",
-        "job_title": "Intern",
-        "job_start": 2012,
-        "job_description": "I worked with the Ground Operations Team as an intern.  I created a software program to increase team productivity and service response time.",
-        "job_title": "Temporary Software Developer",
-        "job_start": 2013,
-        "job_description": "I worked with the Ground Operations Team as a software developer. I tested application migration from windows XP to Windows 7.  I was responsible for finding solutions to errors I encountered.",
+        "jobs": [
+            {
+                "job_title": "Intern",
+                "job_start": 2011,
+                "job_description": "I worked with the IT Architecture Team as an intern. I helped to implement the Service Oriented Architecture inventory."
+            },
+            {
+                "job_title": "Intern",
+                "job_start": 2012,
+                "job_description": "I worked with the Ground Operations Team as an intern.  I created a software program to increase team productivity and service response time."
+            },
+            {
+                "job_title": "Temporary Software Developer",
+                "job_start": 2013,
+                "job_description": "I worked with the Ground Operations Team as a software developer. I tested application migration from windows XP to Windows 7.  I was responsible for finding solutions to errors I encountered."
+            }
+        ]
     },
     {
         "organization_title": "CWU Organizational Effectiveness",
-        "job_title": "Webmaster / Database Maintenance",
-        "job_start": 2015,
-        "job_description": "I worked to improve User Experience and create business intelligence reporting dashboards using Information Builders WebFocus.",
-         "organization_img": "images/cwu_logo.jpg"
+        "organization_img": "images/cwu_logo.jpg",
+        "jobs": [
+            {
+               "job_title": "Webmaster / Database Maintenance",
+                "job_start": 2015,
+                "job_description": "I worked to improve User Experience and create business intelligence reporting dashboards using Information Builders WebFocus." 
+            }
+        ]
     },
     {
         "organization_title": "ArcZap",
-        "job_title": "Web Developer Intern",
-        "job_description": "I worked with this startup to assist the finishing of the beta, and launch of their online collaboration software. I worked to integrate Facebook API functionalities into their existing software. I helped develop server-side software to create a search engines of local events.",
-        "organization_img": "images/arczap.jpg"
+        "organization_img": "images/arczap.jpg",
+        "jobs": [
+            {
+               "job_title": "Web Developer Intern",
+                "job_description": "I worked with this startup to assist the finishing of the beta, and launch of their online collaboration software. I worked to integrate Facebook API functionalities into their existing software. I helped develop server-side software to create a search engine of local events." 
+            }
+        ]
+        
     }
 ]
