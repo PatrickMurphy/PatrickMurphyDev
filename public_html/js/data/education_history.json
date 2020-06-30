@@ -1,0 +1,19 @@
+[
+    {
+        "institution_title": "Central Washington University",
+        "award_title": "Bachelor of Computer Science",     
+        "award_date:": "Winter 2016",
+        "institution_img": "images/cwu_logo.jpg",
+        "details": {
+            "title": "Coursework",
+            "items": ["UX/UI Design &amp; Development",
+                    "Programming in Distributed Environments",
+                    "Databases Management Systems",
+                    "Statistics &amp; Computer Modeling",
+                    "Network Communications",
+                    "Operating Systems and Computer Architecture",
+                    "Ethics in Computer Science"
+                ]
+        }
+   }
+]

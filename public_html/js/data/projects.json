@@ -1,0 +1,38 @@
+[
+    {
+        "project_img": "images/nflarrest.png",
+        "project_link": "http://www.nflarrest.com/",
+        "project_title": "NFL Arrest",
+        "project_description": "Fifteen years of NFL arrest data visualized in interactive graphs: PHP, C3, Jquery, HTML5, CSS3"
+    },
+    {
+        "project_img": "images/npm.svg",
+        "project_link": "https://www.npmjs.com/package/absorb",
+        "project_title": "npm absorb",
+        "project_description": "A node package manager utility package designed to recursively deep merge Javascript objects quickly"
+    },
+    {
+        "project_img": "images/npm.svg",
+        "project_link": "https://www.npmjs.com/package/datacookbook-api",
+        "project_title": "npm datacookbook-api",
+        "project_description": "A light wrapper of Datacookbook.com's multiple term definition lookup API's"
+    },
+	{
+        "project_img": "images/yikmap_logo.png",
+        "project_link": "http://www.yikmap.com/",
+        "project_title": "Yik Map",
+        "project_description": "Yik Map provides an interactive web interface for the app Yik Yak. Created using: AngularJS, NodeJS, Jquery, HTML5, CSS3"
+    },
+    {
+        "project_img": "images/cpm_logo.png",
+        "project_link": "https://web.archive.org/web/20190802083547/http://www.clientprojectmanager.com/",
+        "project_title": "Client Project Manager",
+        "project_description": "An affordable Customer Relationship Management tool designed for freelancers. Created using: PHP, AngularJS, Jquery, HTML5, CSS3"
+    },
+    {
+        "project_img": "images/air_logo.png",
+        "project_link": "http://www.cwuair.com/",
+        "project_title": "CWU AIR: Aviation Incident Reporting",
+        "project_description": "A reporting system to create a culture of safety for the CWU Aviation department."
+    }
+]
