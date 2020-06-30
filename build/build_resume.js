@@ -97,7 +97,7 @@ try {
     out_data += resume_education_and_accomplishments.toString();
     out_data += resume_foot.toString();
 
-    fs.writeFileSync("./public_html/resume_json.html", out_data);
+    fs.writeFileSync("./public_html/index.html", out_data);
 } catch(e) {
     console.log('Error:', e.stack);
 }

@@ -28,7 +28,7 @@ function buildResume(cb) {
 
  
 gulp.task('pretty', function () {
-    return gulp.src('public_html/resume_json.html')
+    return gulp.src('public_html/index.html')
         .pipe(prettyHtml())
         .pipe(gulp.dest('public_html'));
 });
