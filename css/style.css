@@ -241,7 +241,7 @@ h3 {
 }
 
 .projects img {
-    width: 180px;
+    width: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -288,6 +288,16 @@ h3 {
     font-size: 1.2em !important;
     font-weight: 400 !important;
 }
+
+#experience ul li.row {
+    position: relative;
+}
+
+#experience ul li.row img {
+    position: absolute;
+    top:0px;
+}
+
 @media (max-width: 1167px) {
     .fixed.navigation li {
         display:none;
