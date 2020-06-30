@@ -70,6 +70,7 @@
     {
         "organization_title": "ArcZap",
         "organization_img": "images/arczap.jpg",
+        "organization_img_rounded": true,
         "jobs": [
             {
                "job_title": "Web Developer Intern",

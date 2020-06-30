@@ -14,7 +14,7 @@ function buildAbout(){
                 + '<div class="row">'
                 + '<div class="attributes eight columns offset-by-two">';
 
-    for (var i = about_data.length - 1; i >= 0; i--) {
+    for (var i = 0; i < about_data.length; i++) {
     	return_text += '<div class="row">'
                             +'<h2 class="twelve columns">'+ about_data[i].title +'</h2>'
                             + '<span class="seven columns">' + about_data[i].content + '</span>'
@@ -70,7 +70,13 @@ function buildExperience(){
         	return_text += '<span class="nine columns">'+ job.job_description +'</span>';
     	}
         // add org image and close organization row list item
-        return_text += '<img class="two columns right" src="'+ job_data[i].organization_img +'"/></li>';
+        return_text += '<img class="two columns right';
+        // if specified to round logo do so
+        if(job_data[i].hasOwnProperty('organization_img_rounded')){
+        	return_text += ' rounded-logo';
+        }
+        // continue line, either if there is the if above or not
+        return_text += '" src="'+ job_data[i].organization_img +'"/></li>';
     }
 
     // end unordered list and div section

@@ -40,5 +40,6 @@ function publishGHPages(cb) {
 	});
 }
 
-exports.default = series(publishGHPages);
+exports.default = series(buildResume, gulp.task('pretty'), publishGHPages);
 exports.build = series(buildResume, gulp.task('pretty'));
+exports.publish = series(publishGHPages);
