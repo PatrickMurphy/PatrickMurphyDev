@@ -1,7 +1,9 @@
 [
     {
+        "display": true,
         "organization_title": "Patrick Murphy Webdesign &amp; Photography",
         "organization_img": "images/patrickmurphy_logo.png",
+        "type": "Freelance",
         "jobs": [
             {
             "job_title": "Freelance Web developer",
@@ -12,8 +14,10 @@
         ]
     },
     {
+        "display": true,
         "organization_title": "CWU Family Resource Center",
         "organization_img": "images/cwu_logo.jpg",
+        "type": "Student Job",
         "jobs": [
             {
                 "job_title": "Webmaster",
@@ -24,8 +28,10 @@
         ]
     },
     {
+        "display": true,
         "organization_title": "CWU Early Childhood Learning Center",
         "organization_img": "images/cwu_logo.jpg",
+        "type": "Student Job",
         "jobs": [
             {
                 "job_title": "Web Developer",
@@ -36,8 +42,10 @@
         ]
     },
     {
+        "display": true,
         "organization_title": "Alaska Airlines IT Department",
         "organization_img": "images/alaska_logo.jpg",
+        "type": "Internship",
         "jobs": [
             {
                 "job_title": "Intern",
@@ -57,26 +65,56 @@
         ]
     },
     {
+        "display": true,
         "organization_title": "CWU Organizational Effectiveness",
         "organization_img": "images/cwu_logo.jpg",
+        "type": "Student Job",
         "jobs": [
             {
-               "job_title": "Webmaster / Database Maintenance",
+               "job_title": "Student Webmaster / Dashboard Developer",
                 "job_start": 2015,
-                "job_description": "I worked to improve User Experience and create business intelligence reporting dashboards using Information Builders WebFocus." 
+                "job_end": "June 2016",
+                "job_description": "I worked to improve User Experience and create business intelligence reporting dashboards using Information Builders WebFocus.<br />Created JavaScript libraries that created reusable code in all dashboards.<br />Used Node.js to automate a lengthy data file download process." 
             }
         ]
     },
     {
+        "display": false,
         "organization_title": "ArcZap",
         "organization_img": "images/arczap.jpg",
         "organization_img_rounded": true,
+        "type": "Internship",
         "jobs": [
             {
                "job_title": "Web Developer Intern",
                 "job_description": "I worked with this startup to assist the finishing of the beta, and launch of their online collaboration software. I worked to integrate Facebook API functionalities into their existing software. I helped develop server-side software to create a search engine of local events." 
             }
+        ]       
+    },
+    {
+        "display": true,
+        "organization_title": "CWU Insitutional Effectiveness",
+        "organization_img": "images/cwu_logo.jpg",
+        "type": "Career",
+        "jobs": [
+            {
+               "job_title": "Research Analyst 3",
+                "job_start": "June 2016",
+                "job_end": "Oct. 2017",
+                "job_description": "I work to improve User Experience and User Interfaces for reporting dashboards, develop reports querying big data sets, and answer business intelligence questions with quantitative answers. Actively worked to develop my data driven intuition as well as skills in machine learning and predictive analytics. I created business intelligence reporting dashboards using Information Builders WebFocus." 
+            },
+            {
+               "job_title": "Data Warehouse Architect",
+                "job_start": "Sept. 2017",
+                "job_end": "Jan. 2018",
+                "job_description": "Work with IT to design & create a new star schema data warehouse with regard to business need.<br />Work with IT to design & develop datasets necessary for a new suite of dashboard reporting tools (WebFocus).<br />Lead a small team of developers and outside consultants to use SAS to create ETL pipelines that warehouse official reporting data.<br />Create SAS Scripts to utilize official data warehouse to automate federal, state and 3rd party required reporting. (significant time/cost savings and improved consistency and accuracy)<br />Use SSIS to create ETL pipelines for operational reporting data marts from multiple systems of record.<br />Develop new database structures to enhance reporting capabilities using my knowledge of business rules."
+            },
+            {
+               "job_title": "Data Warehouse Coordinator",
+                "job_start": "Jan. 2018",
+                "job_end": "Present",
+                "job_description": "Using business knowledge, interface between stakeholders and data warehouse developers.<br />Maintain SAS Reporting Data Warehouse System, develop new database objects.<br />Create high priority datasets to support university accreditation and longitudinal data research.<br />Won best paper 'Evolution of a Data Warehouse: System Approach' presented at Rocky Mountain Association of Institutional Research (RMAIR) & AIR National conference." 
+            }
         ]
-        
     }
 ]

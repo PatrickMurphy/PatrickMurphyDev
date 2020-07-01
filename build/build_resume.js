@@ -52,31 +52,35 @@ function buildExperience(){
 	// begin div section and unordered list
 	var return_text = '<div id="experience" class="work-experience section"><h2>Experience</h2><ul>';
 
-    for (var i = 0; i < job_data.length; i++) {
-    	// begin organization row, title
-    	return_text += '<li class="row"><h3 class="nine columns">'+ job_data[i].organization_title+'</h3>';
+   // for (var i = 0; i < job_data.length; i++) {
+   	for (var i = job_data.length - 1; i >= 0; i--) {
+   		if(job_data[i].display){
+	    	// begin organization row, title
+	    	return_text += '<li class="row"><h3 class="nine columns">'+ job_data[i].organization_title+'</h3>';
 
-    	// add one title and description for each job in the org
-    	for (var k = 0; k < job_data[i].jobs.length; k++) {
-    		var job = job_data[i].jobs[k];
-    		return_text += '<label class="nine columns">'+ job.job_title;
-    		if(job.hasOwnProperty('job_start')){
-    			return_text += " - " + job.job_start;
-    			if(job.hasOwnProperty('job_end')){
-    				return_text += " to " + job.job_end;
-    			}
-    		}
-    		return_text += '</label>';
-        	return_text += '<span class="nine columns">'+ job.job_description +'</span>';
+	    	// add one title and description for each job in the org
+	    	//for (var k = 0; k < job_data[i].jobs.length; k++) {
+	    	for (var k = job_data[i].jobs.length - 1; k >= 0; k--) {
+	    		var job = job_data[i].jobs[k];
+	    		return_text += '<label class="nine columns">'+ job.job_title;
+	    		if(job.hasOwnProperty('job_start')){
+	    			return_text += " - " + job.job_start;
+	    			if(job.hasOwnProperty('job_end')){
+	    				return_text += " to " + job.job_end;
+	    			}
+	    		}
+	    		return_text += '</label>';
+	        	return_text += '<span class="nine columns">'+ job.job_description +'</span>';
+	    	}
+	        // add org image and close organization row list item
+	        return_text += '<img class="two columns right';
+	        // if specified to round logo do so
+	        if(job_data[i].hasOwnProperty('organization_img_rounded')){
+	        	return_text += ' rounded-logo';
+	        }
+	        // continue line, either if there is the if above or not
+	        return_text += '" src="'+ job_data[i].organization_img +'"/></li>';
     	}
-        // add org image and close organization row list item
-        return_text += '<img class="two columns right';
-        // if specified to round logo do so
-        if(job_data[i].hasOwnProperty('organization_img_rounded')){
-        	return_text += ' rounded-logo';
-        }
-        // continue line, either if there is the if above or not
-        return_text += '" src="'+ job_data[i].organization_img +'"/></li>';
     }
 
     // end unordered list and div section
