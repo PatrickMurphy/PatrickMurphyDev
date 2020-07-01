@@ -1,5 +1,6 @@
 [
     {
+        "display": true,
         "project_img": "images/nflarrest.png",
         "project_link": "http://www.nflarrest.com/",
         "project_title": "NFL Arrest",
@@ -7,20 +8,23 @@
         "tags": []
     },
     {
+        "display": true,
         "project_img": "images/npm.svg",
         "project_link": "https://www.npmjs.com/package/absorb",
         "project_title": "npm absorb",
-        "project_description": "A node package manager utility package designed to recursively deep merge Javascript objects quickly",
+        "project_description": "A NPM (Node.JS Package Manager) utility package designed to recursively deep merge Javascript objects quickly",
         "tags": []
     },
     {
-        "project_img": "images/npm.svg",
-        "project_link": "https://www.npmjs.com/package/datacookbook-api",
-        "project_title": "npm datacookbook-api",
-        "project_description": "A light wrapper of Datacookbook.com's multiple term definition lookup API's",
-        "tags": []
+        "display": true,
+        "project_img": "images/pineapple.png",
+        "project_link": "https://patrickmurphy.github.io/ProceduralPsychEpisode/",
+        "project_title": "Procedural Psych Episode",
+        "tags": [],
+        "project_description": "A script that creates random text scripts based on tropes in the show Psych! Created Using: Node.JS, Nearley.js and Gulp to generate new text."
     },
 	{
+        "display": true,
         "project_img": "images/yikmap_logo.png",
         "project_link": "http://www.yikmap.com/",
         "project_title": "Yik Map",
@@ -28,17 +32,27 @@
         "tags": []
     },
     {
-        "project_img": "images/cpm_logo.png",
-        "project_link": "https://web.archive.org/web/20190802083547/http://www.clientprojectmanager.com/",
-        "project_title": "Client Project Manager",
-        "project_description": "An affordable Customer Relationship Management tool designed for freelancers. Created using: PHP, AngularJS, Jquery, HTML5, CSS3",
-        "tags": []
-    },
-    {
+        "display": true,
         "project_img": "images/air_logo.png",
         "project_link": "http://www.cwuair.com/",
         "project_title": "CWU AIR: Aviation Incident Reporting",
         "project_description": "A reporting system to create a culture of safety for the CWU Aviation department.",
+        "tags": []
+    },
+    {
+        "display": true,
+        "project_img": "images/npm.svg",
+        "project_link": "https://www.npmjs.com/package/datacookbook-api",
+        "project_title": "npm datacookbook-api",
+        "project_description": "A Node.JS light wrapper of Datacookbook.com's multiple term definition lookup API's",
+        "tags": []
+    },
+    {
+        "display": false,
+        "project_img": "images/cpm_logo.png",
+        "project_link": "https://web.archive.org/web/20190802083547/http://www.clientprojectmanager.com/",
+        "project_title": "Client Project Manager",
+        "project_description": "An affordable Customer Relationship Management tool designed for freelancers. Created using: PHP, AngularJS, Jquery, HTML5, CSS3",
         "tags": []
     }
 ]

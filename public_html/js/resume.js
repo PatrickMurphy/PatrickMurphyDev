@@ -10,6 +10,22 @@ function mod(n, m) {
 
 var percent = 80;
 var previousScroll = 0;
+
+var changeHeaderTitle;
+var curr_header_id = 0;
+var headers = [
+  'Data Architect'
+  , 'Data Warehouse Developer'
+  , 'Full-Stack Developer'
+  , 'Procedual Generation'
+  , 'Web Developer'
+  , 'App Developer'
+  , 'Game Developer'
+  , 'Data Engineer'
+  , 'BI Analyst'
+  , 'Software Developer'
+];
+
 $(document).ready(function(){
   $('.attributes').slick({
       adaptiveHeight: true,
@@ -17,6 +33,12 @@ $(document).ready(function(){
       infinite: true,
       speed: 700
   });
+
+  changeHeaderTitle = function(){
+    $('.header_title').html(headers[(++curr_header_id)%headers.length]);
+  };
+
+  setInterval(changeHeaderTitle, 3000);
   
   $(".navigation a, .name-row a").click(function(evn){
         evn.preventDefault();

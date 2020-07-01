@@ -31,16 +31,19 @@ function buildProjects(){
 	var return_text = '<div id="projects" class="projects section">'
 	                + '<h2>Projects</h2>'
                 	+ '<ul class="row">';
-
+                	
+    var proj_count = 0;
     for (var i = 0; i < project_data.length; i++) {
-    	return_text += '<li class="four columns"><img src="' 
-    						+ project_data[i].project_img + '"/><a href="' 
-    						+ project_data[i].project_link + '">'
-    						+ project_data[i].project_title + '</a><span>'
-    						+ project_data[i].project_description + '</span></li>';
+    	if(project_data[i].display){
+	    	return_text += '<li class="four columns"><img src="' 
+	    						+ project_data[i].project_img + '"/><a href="' 
+	    						+ project_data[i].project_link + '">'
+	    						+ project_data[i].project_title + '</a><span>'
+	    						+ project_data[i].project_description + '</span></li>';
 
-    	if(((i+1) % 3) == 0 && (i+1) < project_data.length){
-    		return_text += '</ul><ul class="row">';
+	    	if(((++proj_count) % 3) == 0 && (i+1) < project_data.length){
+	    		return_text += '</ul><ul class="row">';
+	    	}
     	}
     }
 
