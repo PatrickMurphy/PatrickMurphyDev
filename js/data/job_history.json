@@ -20,7 +20,7 @@
         "type": "Student Job",
         "jobs": [
             {
-                "job_title": "Webmaster",
+                "job_title": "Student Webmaster",
                 "job_start": 2010,
                 "job_end": 2011,
                 "job_description": "My responsibilities included redesigning and updating the Family Resource Center's website. I also designed posters for campus events."
@@ -34,7 +34,7 @@
         "type": "Student Job",
         "jobs": [
             {
-                "job_title": "Web Developer",
+                "job_title": "Student Web Developer",
                 "job_start": 2010,
                 "job_end": 2012,
                 "job_description": "I improved User Experience and made regular additions &amp; updates to the Early Childhood Learning Center's website."
@@ -50,17 +50,17 @@
             {
                 "job_title": "Intern",
                 "job_start": 2011,
-                "job_description": "I worked with the IT Architecture Team as an intern. I helped to implement the Service Oriented Architecture inventory."
+                "job_description": "I worked with the IT Architecture Team as an intern. I helped to implement the Service Oriented Architecture inventory of SOAP/WPF Web Services."
             },
             {
                 "job_title": "Intern",
                 "job_start": 2012,
-                "job_description": "I worked with the Ground Operations Team as an intern.  I created a software program to increase team productivity and service response time."
+                "job_description": "I worked with the Ground Operations IT Team as an intern.  I created a C# Data Dashboard analyzing service tickets, displayed on a large screen in the office with the goal to increase team productivity and service response time. I queried a SQL database to get ticket metrics, wrote the C# server backend, and designed the HTML/CSS front-end."
             },
             {
                 "job_title": "Temporary Software Developer",
                 "job_start": 2013,
-                "job_description": "I worked with the Ground Operations Team as a software developer. I tested application migration from windows XP to Windows 7.  I was responsible for finding solutions to errors I encountered."
+                "job_description": "After 2 years of internships I was offered a temporary summer software development position at Alaska Airlines. I developed team productivity tools, solutions in C# based on requirements and UX wireframes and tested system migration for a company wide Windows 7 upgrade."
             }
         ]
     },
@@ -101,19 +101,19 @@
                "job_title": "Research Analyst 3",
                 "job_start": "June 2016",
                 "job_end": "Oct. 2017",
-                "job_description": "I work to improve User Experience and User Interfaces for reporting dashboards, develop reports querying big data sets, and answer business intelligence questions with quantitative answers. Actively worked to develop my data driven intuition as well as skills in machine learning and predictive analytics. I created business intelligence reporting dashboards using Information Builders WebFocus." 
+                "job_description": "<ul><li>Improve User Experience and User Interfaces for reporting dashboards, develop reports querying big data sets, and answer business intelligence questions with quantitative answers. Actively worked to develop my data driven intuition as well as skills in machine learning and predictive analytics (DataCamp). I created business intelligence reporting dashboards using Information Builders WebFocus.</li></ul>" 
             },
             {
                "job_title": "Data Warehouse Architect",
                 "job_start": "Sept. 2017",
                 "job_end": "Jan. 2018",
-                "job_description": "Work with IT to design & create a new star schema data warehouse with regard to business need.<br />Work with IT to design & develop datasets necessary for a new suite of dashboard reporting tools (WebFocus).<br />Lead a small team of developers and outside consultants to use SAS to create ETL pipelines that warehouse official reporting data.<br />Create SAS Scripts to utilize official data warehouse to automate federal, state and 3rd party required reporting. (significant time/cost savings and improved consistency and accuracy)<br />Use SSIS to create ETL pipelines for operational reporting data marts from multiple systems of record.<br />Develop new database structures to enhance reporting capabilities using my knowledge of business rules."
+                "job_description": "<ul><li>Work with IT to design & create a new star schema data warehouse with regard to business need.</li><li>Work with IT to design & develop datasets necessary for a new suite of dashboard reporting tools (WebFocus).</li><li>Lead a small team of developers and outside consultants to use SAS to create ETL pipelines that warehouse official reporting data.</li><li>Use SSIS to create ETL pipelines for operational reporting data marts from multiple systems of record.</li><li>Develop new database structures to enhance reporting capabilities using my knowledge of business rules.</li></ul>"
             },
             {
                "job_title": "Data Warehouse Coordinator",
                 "job_start": "Jan. 2018",
                 "job_end": "Present",
-                "job_description": "Using business knowledge, interface between stakeholders and data warehouse developers.<br />Maintain SAS Reporting Data Warehouse System, develop new database objects.<br />Create high priority datasets to support university accreditation and longitudinal data research.<br />Won best paper 'Evolution of a Data Warehouse: System Approach' presented at Rocky Mountain Association of Institutional Research (RMAIR) & AIR National conference." 
+                "job_description": "<ul><li>Using business knowledge, interface between stakeholders and data warehouse developers.</li><li>Create SAS Scripts to utilize official data warehouse to automate federal, state and 3rd party required reporting. (significant time/cost savings and improved consistency and accuracy)</li><li>Maintain SAS Reporting Data Warehouse System, develop new database objects.</li><li>Create high priority datasets to support university accreditation and longitudinal data research.</li><li>Won best paper 'Evolution of a Data Warehouse: System Approach' presented at Rocky Mountain Association of Institutional Research (RMAIR) & AIR National conference.</li></ul>" 
             }
         ]
     }
